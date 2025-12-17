@@ -1,0 +1,78 @@
+ID;Requisito;Tipo;Módulo;Épico;Sistema;Porte;Complexidade;Impacto;Horas Base;Horas +30%;Priorização Técnica;Onda
+1;App para Motorista - autosserviço para aviso de incidente;Sistema;Abertura;Assistência Digital Integrada;BOT do Whatsapp;G;Alta;Alto;624;811;3;Autosserviço
+2;Autosserviço WhatsApp para Motorista;Sistema;Abertura;Assistência Digital Integrada;Whatsapp/APP vistoria/Laudo Web;G;Média;Alto;624;811;2;Autosserviço
+3;Formulário e Jornada para Pesados;Processo;Abertura;Automação de Pesados;Legados;GG;Média;Médio;832;1082;2;Onda 1
+4;Célula Especialista em Pesados na CO;Processo;Abertura;Automação de Pesados;Processo;G;Média;Médio;624;811;2;Onda 1
+5;Coleta de Dados de Terceiros via WhatsApp;Sistema;Abertura;Jornada do Sinistro;Bot WhatsApp;G;Baixa;Médio;624;811;1;Autosserviço
+6;Enriquecimento de Dados do Veículo (DETRAN);Sistema;Abertura;Automação de Pesados;Sistema de Dados do Veículo/Legado;G;Média;Médio;624;811;2;Onda 3
+7;Perguntas Adicionais em Tempo de Proposta;Sistema;Abertura;Automação de Pesados;Cotador Auto Frota/Nova emissão R3;G;Média;Médio;624;811;2;Onda 3
+8;Workflow de Atualização de Dados do Veículo;Sistema;Abertura;Automação de Pesados;Cotador Auto Frota/Nova emissão R3;G;Média;Médio;624;811;2;Onda 3
+9;Novo Portal do Prestador (GPS/logística/indicadores);Aplicação;Abertura;Assistência Digital Integrada;Portal dos prestadores;GG;Alta;Alto;832;1082;3;Onda 3
+10;Plataforma de Laudo Digital (Prestadores Não Padrão);Aplicação;Abertura;Assistência Digital Integrada;Plataforma Integrada;GG;Média;Médio;832;1082;2;Onda 3
+11;Viabilidade de Prestadores Padrão em Capitais;Processo;Abertura;Retroalimentação/Integração/Fraude;Processo;G;Média;Médio;624;811;2;Onda 1
+12;Atualização Automática do Portal do Prestador;Aplicação;Abertura;Assistência Digital Integrada;Portal do Prestador;P;Média;Médio;208;270;2;Onda 1
+13;Função Blanket no Sistema;Sistema;Abertura;Jornada do Sinistro;Sistemas Diversos;GG;Média;Alto;832;1082;2;Onda 3
+14;Jornada Completa de Gestão de Frota no App;Aplicação;Abertura;Assistência Digital Integrada;Portal dos prestadores;GG;Alta;Alto;832;1082;3;Onda 3
+15;Consulta de Assistências e Sinistros no Portal da Produção;Sistema;Abertura;Experiência do Cliente;Portal da Produção;M;Média;Médio;416;541;2;Autosserviço
+16;Acesso ao Edital para Analistas de Sinistro;Sistema;Sinistro;Jornada do Sinistro;Sistema de Sinistro/Licitar;G;Média;Alto;624;811;2;Onda 2
+17;Discriminação Clara de Cláusulas;Processo;Sinistro;Especialização Técnica e Contratual;Processo;G;Média;Alto;624;811;2;Onda 1
+18;Consulta de Cláusulas de Condições Particulares;Sistema;Sinistro;Especialização Técnica e Contratual;Portal de Atendimento/Sistema de Sinistro;G;Média;Alto;624;811;2;Autosserviço
+19;Sistema Multi-item no ABAS (Histórico Apólice);Sistema;Sinistro;Jornada do Sinistro;GSA;GG;Média;Alto;832;1082;2;Onda 3
+20;Desassociar Item Único da Apólice;Sistema;Sinistro;Jornada do Sinistro;Cotador AutoFrota;G;Média;Alto;624;811;2;Onda 2
+21;Endosso para Reabilitação de Itens;Sistema;Sinistro;Jornada do Sinistro;Cotador Auto Frota;M;Alta;Médio;416;541;3;Onda 2
+22;Visualização Segregada Casco/Acessórios (GSA);Sistema;Sinistro;Jornada do Sinistro;Sistema GSA;G;Alta;Alto;624;811;3;Onda 2
+23;Análise Segregada de Sinistros (PT Casco + PP Acessório);Sistema;Sinistro;Jornada do Sinistro;Sistema de sinistro;G;Alta;Alto;624;811;3;Onda 2
+24;Exclusão Automática de Acessório (PT);Sistema;Sinistro;Jornada do Sinistro;Cotador AutoFrota/Sistema de Sinistro;G;Média;Médio;624;811;2;Onda 3
+25;Pop-up Auto Frota Compacto (Cobertura PNR);Sistema;Sinistro;Experiência do Cliente;LaudoWeb;M;Baixa;Baixo;416;541;1;Onda 3
+26;Revisão de Escolhas de Acessórios;Processo;Sinistro;Especialização Técnica e Contratual;Processo;G;Alta;Médio;624;811;3;Onda 1
+27;Regras de Cobertura para Motorhome;Processo;Sinistro;Especialização Técnica e Contratual;Cotador AutoFrota;G;Média;Alto;624;811;2;Onda 1
+28;Bloqueio de Endosso com Sinistro II;Sistema;Sinistro;Jornada do Sinistro;Cotador AutoFrota;P;Baixa;Médio;208;270;1;Onda 1
+29;Endosso Automático para Retirada de Acessório;Sistema;Sinistro;Jornada do Sinistro;Sistema de sinistro/Cotador Auto Frota;G;Alta;Médio;624;811;3;Onda 3
+30;Cláusulas de 2º Risco na Apólice;Sistema;Sinistro;Especialização Técnica e Contratual;Sistemas de assistência e sinistro/Nova emissão R3;G;Média;Médio;624;811;2;Onda 3
+31;Oficinas de Motorhome;Processo;Sinistro;Especialização Técnica e Contratual;Processo;G;Média;Alto;624;811;2;Onda 1
+32;Treinamento de Prestadores (Veículos para Pátio);Processo;Sinistro;Especialização Técnica e Contratual;Treinamento;G;Média;Alto;624;811;2;Onda 1
+33;Canal Direto Prestador/Time Técnico;Processo;Sinistro;Especialização Técnica e Contratual;Processo;G;Alta;Alto;624;811;3;Onda 1
+34;IA para Análise de PT;Sistema;Sinistro;Assistência Digital Integrada;Sistema do prestador;G;Alta;Alto;624;811;3;Onda 2
+35;Integração de Sistemas para Laudos;Processo;Sinistro;Retroalimentação/Integração/Fraude;Processo;G;Alta;Alto;624;811;3;Onda 1
+36;Cláusulas com LMI na Apólice;Sistema;Sinistro;Especialização Técnica e Contratual;Sistemas de sinistro e assistência;G;Média;Médio;624;811;2;Onda 3
+37;Integração Blanket para Análise de Sinistro;Sistema;Sinistro;Jornada do Sinistro;Sistemas de sinistro/Cotador Auto Frota/Nova emissão R3;GG;Média;Alto;832;1082;2;Onda 3
+38;Endosso por Perda de Direitos;Sistema;Sinistro;Jornada do Sinistro;Sistema de sinistro;G;Alta;Baixo;624;811;3;Despriorizado
+39;Bloqueio de Alteração de Tarifa com Sinistro Aberto;Sistema;Sinistro;Jornada do Sinistro;Cotador Auto Frota;G;Média;Alto;624;811;2;Onda 2
+40;Parametrização de FIPE;Processo;Sinistro;Jornada do Sinistro;Processo;M;Média;Alto;416;541;2;Onda 1
+41;Visualização de Sinistro por Item;Sistema;Sinistro;Jornada do Sinistro;Sistema de sinistro;G;Alta;Alto;624;811;3;Onda 2
+42;Relatórios no COL;Sistema;Sinistro;Experiência do Cliente;COL;M;Média;Alto;416;541;2;Autosserviço
+43;Portal/APP Integrado (Segurado/Motorista/Corretor/Terceiro);Processo;Sinistro;Experiência do Cliente;Processo;G;Alta;Alto;624;811;3;Onda 1
+44;Capilaridade de Oficinas;Processo;Sinistro;Experiência do Cliente;Processo;M;Média;Alto;416;541;2;Onda 1
+45;Retroalimentação do Cadastro de Oficinas;Processo;Sinistro;Retroalimentação/Integração/Fraude;Processo;M;Média;Alto;416;541;2;Onda 1
+46;Veículos Especiais para Remoção de Peças;Processo;Sinistro;Automação de Pesados;Processo;G;Alta;Alto;624;811;3;Onda 1
+47;Capacitação para Veículos Pesados;Processo;Assistência;Automação de Pesados;Treinamento;G;Baixa;Médio;624;811;1;Onda 1
+48;Dados Cadastrais de Pesados;Processo;Assistência;Automação de Pesados;Processo;G;Média;Alto;624;811;2;Onda 2
+49;Parametrização de Tempo para Pesados;Sistema;Assistência;Automação de Pesados;Sistema de assistência;G;Alta;Alto;624;811;3;Onda 2
+50;Apoio ao Passageiro;Processo;Assistência;Experiência do Cliente;Processo;G;Média;Médio;624;811;2;Despriorizado
+51;Formalizar Assistência ao Passageiro;Processo;Assistência;Especialização Técnica e Contratual;Processo;P;Baixa;Baixo;208;270;1;Onda 2
+52;Abertura de Atendimento por Evento;Sistema;Assistência;Jornada do Sinistro;Sistema de assistência;G;Alta;Alto;624;811;3;Onda 2
+53;Visão de Serviços para Prestador;Sistema;Assistência;Assistência Digital Integrada;Sistema de assistência;G;Alta;Alto;624;811;3;Onda 2
+54;Registro de Negociações com Prestadores;Sistema;Assistência;Assistência Digital Integrada;Sistema de assistência;G;Alta;Alto;624;811;3;Onda 2
+55;Botão de Possível Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Processo;G;Média;Médio;624;811;2;Onda 1
+56;Lista de Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Novo;GG;Baixa;Médio;832;1082;1;Onda 3
+57;Mecanismos Anti-Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Processo;G;Média;Médio;624;811;3;Onda 1
+58;Regras de Flexibilização;Processo;Assistência;Especialização Técnica e Contratual;Processo;G;Média;Alto;624;811;2;Onda 1
+59;Vistoria Pré-Seguro Automatizada;Processo;Assistência;Especialização Técnica e Contratual;Processo;G;Média;Médio;624;811;2;Onda 1
+60;Educação de Prestadores (Terabox);Processo;Assistência;Especialização Técnica e Contratual;Treinamento;G;Baixa;Alto;624;811;1;Onda 1
+61;Captura de Informações para Modal (Laudo Digital);Sistema;Assistência;Automação de Pesados;Sistemas de assistência e sinistro/Nova emissão R3;GG;Média;Alto;832;1082;2;Onda 3
+62;Prestadores-Chave para Situações Específicas;Processo;Assistência;Automação de Pesados;Processo;G;Média;Baixo;624;811;2;Despriorizado
+63;Isenção de Juros;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP;G;Alta;Médio;624;811;3;Onda 3
+64;Automação de Devoluções;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP;G;Alta;Alto;624;811;3;Onda 2
+65;Fluxo Financeiro-Comercial (Inadimplência);Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Sistema legado;G;Alta;Médio;624;811;3;Onda 3
+66;Modelo de Faturamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador Auto Frota;GG;Alta;Alto;832;1082;3;Onda 3
+67;Emissão de Boleto D+0;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador AutoFrota;G;Média;Médio;624;811;2;Onda 3
+68;Novos Meios de Pagamento (PIX);Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador AutoFrota;M;Média;Baixo;416;541;2;Onda 3
+69;Régua de Cobrança para Órgãos Públicos;Processo;Financeiro;Automação e Autosserviço Financeiro;Processo;G;Alta;Médio;624;811;3;Onda 1
+70;Jornadas de Reemissão e Endosso;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador Auto Frota/Sistema de Ticket;GG;Alta;Médio;832;1082;3;Onda 3
+71;Campo Obrigatório de Devolução no Endosso;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador AutoFrota;G;Média;Médio;624;811;2;Onda 3
+72;Ajuste de Cálculo de Cancelamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador Auto Frota;G;Alta;Baixo;624;811;3;Despriorizado
+73;Fluxos de Vigência com Financeiro;Processo;Financeiro;Automação e Autosserviço Financeiro;Processo;G;Média;Baixo;624;811;2;Despriorizado
+74;Regras de Arredondamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador Auto Frota;G;Alta;Alto;624;811;3;Onda 2
+75;Painel de Acompanhamento no Portal do Cliente;Sistema;Financeiro;Experiência do Cliente;Portal do cliente (PDC);GG;Alta;Alto;832;1082;3;Autosserviço
+76;Painel para Comercial Porto;Sistema;Financeiro;Experiência do Cliente;Portal da Produção/SAP;GG;Alta;Médio;832;1082;3;Autosserviço
+77;Indicadores Específicos para Frota;Processo;Cross;Experiência do Cliente;Processo;G;Alta;Alto;624;811;3;Onda 1
