@@ -1,0 +1,79 @@
+ID;Requisito;Tipo;Módulo;Épico;Sistemas Envolvidos;Impacto;Categoria Técnica;Horas Base;Horas +30%;Onda;Justificativa Técnica
+1;App para Motorista - autosserviço aviso incidente;Sistema;Abertura;Assistência Digital Integrada;BOT WhatsApp/Sistemas Legados/Portal Segurado;Alto;MP;2400;3120;Autosserviço;App mobile completo + integrações múltiplas + WhatsApp API
+2;Autosserviço WhatsApp para Motorista;Sistema;Abertura;Assistência Digital Integrada;WhatsApp Business API/Laudo Web/APP Vistoria;Alto;MC;1200;1560;Autosserviço;Chatbot complexo com upload de mídia e 3 integrações
+3;Formulário e Jornada para Pesados;Processo;Abertura;Automação de Pesados;Legados múltiplos/Nova Emissão R3;Médio;C;800;1040;Onda 1;Redesenho de jornada com múltiplas integrações
+4;Célula Especialista em Pesados na CO;Processo;Abertura;Automação de Pesados;Processo/Sibel/Sistema Roteamento;Médio;M;400;520;Onda 1;Workflow de roteamento e distribuição
+5;Coleta de Dados de Terceiros via WhatsApp;Sistema;Abertura;Jornada do Sinistro;WhatsApp API/BCP/Bureau;Médio;C;700;910;Autosserviço;Chatbot + integração com bases externas
+6;Enriquecimento Dados Veículo (DETRAN);Sistema;Abertura;Automação de Pesados;DETRAN API/Sistema de Dados/Legado;Médio;C;850;1105;Onda 3;Integração webservice governamental
+7;Perguntas Adicionais Tempo de Proposta;Sistema;Abertura;Automação de Pesados;Cotador Auto Frota/Nova Emissão R3/Assistência/Sinistro;Médio;C;650;845;Onda 3;Formulários dinâmicos com propagação downstream
+8;Workflow Atualização Dados Veículo;Sistema;Abertura;Automação de Pesados;Cotador/Nova Emissão R3/Assistência/Sinistro;Médio;C;750;975;Onda 3;Workflow multinível com auditoria
+9;Novo Portal do Prestador (GPS/logística);Aplicação;Abertura;Assistência Digital Integrada;Portal novo/GPS/Sistemas de mercado (Autem);Alto;MP;3000;3900;Onda 3;Portal web completo do zero com GPS real-time
+10;Plataforma Laudo Digital (Não Padrão);Aplicação;Abertura;Assistência Digital Integrada;Plataforma nova/Mobile;Médio;MC;1400;1820;Onda 3;Plataforma web/mobile com assinatura digital
+11;Viabilidade Prestadores Padrão em Capitais;Processo;Abertura;Retroalimentação/Integração/Fraude;Processo/Análise;Médio;S;180;234;Onda 1;Estudo de viabilidade e configuração
+12;Atualização Automática Portal Prestador;Aplicação;Abertura;Assistência Digital Integrada;Portal existente/WebSocket/SSE;Médio;M;300;390;Onda 1;Push notifications real-time
+13;Função Blanket no Sistema;Sistema;Abertura;Jornada do Sinistro;Múltiplos sistemas;Alto;MC;1100;1430;Onda 3;Integração complexa Blanket-Apólice
+14;Jornada Gestão Frota no App;Aplicação;Abertura;Assistência Digital Integrada;App mobile/Múltiplos sistemas;Alto;MP;2800;3640;Onda 3;Jornada mobile completa com dashboards
+15;Consulta Assistências/Sinistros Portal Produção;Sistema;Abertura;Experiência do Cliente;Portal da Produção;Médio;M;350;455;Autosserviço;Novo módulo com perfil comercial
+16;Acesso Edital para Analistas;Sistema;Sinistro;Jornada do Sinistro;Sistema Sinistro/Licitar;Alto;C;600;780;Onda 2;Integração entre sistemas com permissões
+17;Discriminação Clara de Cláusulas;Processo;Sinistro;Especialização Técnica e Contratual;Processo/Sistemas de Atendimento;Alto;M;400;520;Onda 1;Padronização de cláusulas parametrizáveis
+18;Consulta Cláusulas Condições Particulares;Sistema;Sinistro;Especialização Técnica e Contratual;Portal Atendimento/Sistema Sinistro/Cotador;Alto;C;650;845;Autosserviço;Integração de 3 sistemas
+19;Sistema Multi-item ABAS (Histórico);Sistema;Sinistro;Jornada do Sinistro;GSA/ABAS;Alto;MC;1300;1690;Onda 3;Redesenho de modelo de dados
+20;Desassociar Item Único da Apólice;Sistema;Sinistro;Jornada do Sinistro;Cotador AutoFrota;Alto;C;700;910;Onda 2;Lógica complexa de cancelamento parcial
+21;Endosso para Reabilitação de Itens;Sistema;Sinistro;Jornada do Sinistro;Cotador Auto Frota;Médio;C;600;780;Onda 2;Novo tipo de endosso
+22;Visualização Segregada Casco/Acessórios;Sistema;Sinistro;Jornada do Sinistro;GSA;Alto;C;700;910;Onda 2;Modelo de dados segregado
+23;Análise Segregada Sinistros (PT+PP);Sistema;Sinistro;Jornada do Sinistro;Sistema de Sinistro;Alto;C;750;975;Onda 2;Workflow de análise dual
+24;Exclusão Automática Acessório (PT);Sistema;Sinistro;Jornada do Sinistro;Cotador/Sistema Sinistro;Médio;C;550;715;Onda 3;Automação baseada em verba
+25;Pop-up Auto Frota Compacto;Sistema;Sinistro;Experiência do Cliente;LaudoWeb;Baixo;S;150;195;Onda 3;Componente de UI simples
+26;Revisão Escolhas de Acessórios;Processo;Sinistro;Especialização Técnica e Contratual;Processo/Cotador;Médio;M;400;520;Onda 1;Redesenho de formulário
+27;Regras Cobertura Motorhome;Processo;Sinistro;Especialização Técnica e Contratual;Cotador AutoFrota/Sistemas Sinistro;Alto;C;550;715;Onda 1;Modelo de cobertura específico
+28;Bloqueio Endosso com Sinistro II;Sistema;Sinistro;Jornada do Sinistro;Cotador AutoFrota;Médio;M;250;325;Onda 1;Validação simples
+29;Endosso Automático Retirada Acessório;Sistema;Sinistro;Jornada do Sinistro;Sistema Sinistro/Cotador;Médio;C;700;910;Onda 3;Automação de endosso
+30;Cláusulas 2º Risco na Apólice;Sistema;Sinistro;Especialização Técnica e Contratual;Sistemas Assistência/Sinistro/Nova Emissão R3;Médio;C;650;845;Onda 3;Mapeamento de dados existentes
+31;Oficinas de Motorhome;Processo;Sinistro;Especialização Técnica e Contratual;Processo/Sistema;Alto;M;350;455;Onda 1;Configuração de habilitação
+32;Treinamento Prestadores (Pátio);Processo;Sinistro;Especialização Técnica e Contratual;Plataforma de treinamento;Alto;M;400;520;Onda 1;Módulo de treinamento online
+33;Canal Direto Prestador/Time Técnico;Processo;Sinistro;Especialização Técnica e Contratual;Chat/Comunicação integrada;Alto;C;700;910;Onda 1;Sistema de comunicação real-time
+34;IA para Análise de PT;Sistema;Sinistro;Assistência Digital Integrada;IA/ML/Sistema Prestador;Alto;MC;1500;1950;Onda 2;Modelo de ML para análise de imagens
+35;Integração Sistemas para Laudos;Processo;Sinistro;Retroalimentação/Integração/Fraude;Múltiplos sistemas Porto;Alto;C;800;1040;Onda 1;Integração múltipla com Kafka
+36;Cláusulas com LMI na Apólice;Sistema;Sinistro;Especialização Técnica e Contratual;Sistemas Sinistro/Assistência;Médio;M;400;520;Onda 3;Campos adicionais e consulta
+37;Integração Blanket Análise Sinistro;Sistema;Sinistro;Jornada do Sinistro;Sistemas Sinistro/Cotador/Nova Emissão R3;Alto;MC;1100;1430;Onda 3;Integração de 3+ sistemas
+38;Endosso por Perda de Direitos;Sistema;Sinistro;Jornada do Sinistro;Sistema de Sinistro;Baixo;C;550;715;Despriorizado;Novo tipo de endosso
+39;Bloqueio Alteração Tarifa com Sinistro;Sistema;Sinistro;Jornada do Sinistro;Cotador Auto Frota;Alto;C;600;780;Onda 2;Regra de bloqueio com versionamento
+40;Parametrização de FIPE;Processo;Sinistro;Jornada do Sinistro;Processo/Sistema;Alto;M;300;390;Onda 1;Ajuste de parametrização
+41;Visualização Sinistro por Item;Sistema;Sinistro;Jornada do Sinistro;Sistema de Sinistro;Alto;C;700;910;Onda 2;Modelo de visualização com dedução
+42;Relatórios no COL;Sistema;Sinistro;Experiência do Cliente;COL;Alto;M;400;520;Autosserviço;Novos relatórios e filtros
+43;Portal/APP Integrado Multi-perfil;Processo;Sinistro;Experiência do Cliente;Portal/APP novo/BOTs;Alto;MP;2500;3250;Onda 1;Portal multi-perfil com múltiplas jornadas
+44;Capilaridade de Oficinas;Processo;Sinistro;Experiência do Cliente;Sistema de cadastro;Alto;M;300;390;Onda 1;Expansão de cadastro
+45;Retroalimentação Cadastro Oficinas;Processo;Sinistro;Retroalimentação/Integração/Fraude;Workflow de retroalimentação;Alto;M;350;455;Onda 1;Automação de atualização
+46;Veículos Especiais Remoção Peças;Processo;Sinistro;Automação de Pesados;Processo/Sistema;Alto;M;400;520;Onda 1;Configuração de regras de acionamento
+47;Capacitação Veículos Pesados;Processo;Assistência;Automação de Pesados;Plataforma treinamento;Médio;M;350;455;Onda 1;Módulo de treinamento
+48;Dados Cadastrais de Pesados;Processo;Assistência;Automação de Pesados;Processo/Sistema;Alto;C;600;780;Onda 2;Extensão de modelo de dados
+49;Parametrização Tempo para Pesados;Sistema;Assistência;Automação de Pesados;Sistema de Assistência;Alto;C;700;910;Onda 2;SLA diferenciado com timeline
+50;Apoio ao Passageiro;Processo;Assistência;Experiência do Cliente;Processo/Sistema;Médio;M;400;520;Despriorizado;Workflow de apoio com voucher
+51;Formalizar Assistência Passageiro;Processo;Assistência;Especialização Técnica e Contratual;Processo/Documentação;Baixo;S;120;156;Onda 2;Documentação e parametrização
+52;Abertura Atendimento por Evento;Sistema;Assistência;Jornada do Sinistro;Sistema de Assistência;Alto;MC;1000;1300;Onda 2;Modelo de evento unificado
+53;Visão Serviços para Prestador;Sistema;Assistência;Assistência Digital Integrada;Sistema Assistência/Portal Prestador;Alto;C;800;1040;Onda 2;Dashboard completo com indicadores
+54;Registro Negociações com Prestadores;Sistema;Assistência;Assistência Digital Integrada;Portal do Prestador;Alto;C;650;845;Onda 2;Módulo de negociações
+55;Botão Possível Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Sibel;Médio;C;600;780;Onda 1;Integração com Sibel
+56;Lista de Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Sistema novo/Compliance;Médio;MC;1200;1560;Onda 3;Sistema de blocklist
+57;Mecanismos Anti-Fraude;Processo;Assistência;Retroalimentação/Integração/Fraude;Motor de regras;Médio;C;800;1040;Onda 1;Motor de regras de detecção
+58;Regras de Flexibilização;Processo;Assistência;Especialização Técnica e Contratual;Sistema/Processo;Alto;M;400;520;Onda 1;Parametrização dinâmica
+59;Vistoria Pré-Seguro Automatizada;Processo;Assistência;Especialização Técnica e Contratual;Workflow automatizado;Médio;C;600;780;Onda 1;Automação baseada em risco
+60;Educação Prestadores (Terabox);Processo;Assistência;Especialização Técnica e Contratual;Plataforma educacional;Alto;M;350;455;Onda 1;Módulo de educação
+61;Captura Informações Modal (Laudo Digital);Sistema;Assistência;Automação de Pesados;Sistemas Assistência/Sinistro/Nova Emissão R3;Alto;MC;1100;1430;Onda 3;Captura multimídia com múltiplas integrações
+62;Prestadores-Chave Situações Específicas;Processo;Assistência;Automação de Pesados;Cadastro de prestadores;Baixo;M;350;455;Despriorizado;Extensão de cadastro
+63;Isenção de Juros;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP;Médio;C;750;975;Onda 3;Workflow + motor de regras + SAP
+64;Automação de Devoluções;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP;Alto;C;800;1040;Onda 2;Automação SAP complexa
+65;Fluxo Financeiro-Comercial (Inadimplência);Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Sistema Legado;Médio;C;700;910;Onda 3;Integração SAP-Legado
+66;Modelo de Faturamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador Auto Frota;Alto;MC;1400;1820;Onda 3;Novo modelo financeiro com SAP
+67;Emissão Boleto D+0;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador/Orquestrador;Médio;C;700;910;Onda 3;Integração com orquestrador
+68;Novos Meios de Pagamento (PIX);Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador/Gateway;Baixo;C;600;780;Onda 3;Integração PIX e gateway
+69;Régua Cobrança Órgãos Públicos;Processo;Financeiro;Automação e Autosserviço Financeiro;Processo/SAP;Médio;C;650;845;Onda 1;Modelo específico de régua
+70;Jornadas Reemissão e Endosso;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador/Sistema de Ticket;Médio;MC;1200;1560;Onda 3;Jornadas completas com automação
+71;Campo Obrigatório Devolução Endosso;Sistema;Financeiro;Automação e Autosserviço Financeiro;SAP/Cotador;Médio;M;400;520;Onda 3;Formulário com validações
+72;Ajuste Cálculo Cancelamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador Auto Frota;Baixo;C;650;845;Despriorizado;Lógica de cálculo complexa
+73;Fluxos Vigência com Financeiro;Processo;Financeiro;Automação e Autosserviço Financeiro;Processo/Sistema;Baixo;M;400;520;Despriorizado;Integração de comunicação
+74;Regras de Arredondamento;Sistema;Financeiro;Automação e Autosserviço Financeiro;Cotador Auto Frota/Múltiplos sistemas;Alto;C;700;910;Onda 2;Padronização entre sistemas
+75;Painel Acompanhamento Portal Cliente;Sistema;Financeiro;Experiência do Cliente;Portal do Cliente (PDC);Alto;MC;1300;1690;Autosserviço;Dashboard completo com integrações
+76;Painel para Comercial Porto;Sistema;Financeiro;Experiência do Cliente;Portal da Produção/SAP;Médio;MC;1300;1690;Autosserviço;Dashboard gestão comercial
+77;Indicadores Específicos para Frota;Processo;Cross;Experiência do Cliente;Múltiplos sistemas/NPS;Alto;C;700;910;Onda 1;KPIs com dashboards e NPS
+
